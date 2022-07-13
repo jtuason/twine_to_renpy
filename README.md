@@ -5,7 +5,7 @@ The Twine to Ren'Py tool allows you to write a simple Ren'Py game but with the v
 This requires Python 2.7 to run. If you don't have it, you can download the application here:
 https://ludowoods.itch.io/twine-to-renpy-tool
 
-# Features:
+## Features:
 
 - Converts Twine-like choices into Ren'Py menus
 - Converts Twine variables and conditionals to Ren'Py
@@ -16,23 +16,23 @@ https://ludowoods.itch.io/twine-to-renpy-tool
 - Use passage tags to break up into separate rpy files
 - Includes Sugarcube demo for writing Ren'Py games in Twine
 
-# How to run Python script:
+## How to run Python script:
 1. Download the directory
 2. Open the cmd prompt in the twine_to_renpy directory
 3. Run python twine_to_rpy.py
 
-# How to run the pyinstaller exe from the itch page:
+## How to run the pyinstaller exe from the itch page:
 
 1. Unzip the directory
 2. Run twine_to_rpy.exe inside the twine_to_rpy directory
 2. Select the html file (Demo.html is included for testing) and directory to output rpy files
 4. Run!
 
-# Curious how to set up your Twine file?
+## Curious how to set up your Twine file?
 
 Open the Demo.html in Twine 2 to see how the file is written for tool processing.
 
-# Run into a bug?
+## Run into a bug?
 
 Drop the steps to reproduce the bug in the itch comments.
 
