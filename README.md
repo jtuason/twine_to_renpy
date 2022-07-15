@@ -2,7 +2,7 @@
 
 The Twine to Ren'Py tool allows you to write a simple Ren'Py game but with the visual outlining of writing in Twine. Convert a Sugarcube Twine html file into rpy files for your Ren'Py game project.
 
-This requires Python 2.7 to run. If you don't have it, you can download the application here:
+This requires Python 2.7 to run. If you don't have it, you can download the standalone application to run (on Windows only) instead here:
 https://ludowoods.itch.io/twine-to-renpy-tool
 
 ## Features
