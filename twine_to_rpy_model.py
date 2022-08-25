@@ -269,8 +269,9 @@ class TwineToRenpy:
         for passage in raw_passage_list:
             # Create the passage name to use for the label (is the same as jump statement)
             passage_tags = passage['tags']
-            # Only add passages that don't have this tag
-            if passage_tags != 'Twine.image':
+
+            # Only add passages that actually contain something and don't have image tags
+            if passage_tags != 'Twine.image' and passage.string is not None:
                 passage_list.append(passage)
 
                 # Convert passage from ascii to unicode
